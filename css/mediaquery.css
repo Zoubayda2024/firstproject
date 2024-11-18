@@ -1,0 +1,85 @@
+@media (min-width: 576px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+
+    .nav-toggle {
+        display: none !important;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media (max-width: 768px) {
+    header .container nav ul {
+        display: none;
+    }
+
+    header .container .social {
+        display: none;
+    }
+
+    header .container nav {
+        justify-content: end;
+    }
+
+    header .container nav ul li a {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .hero {
+        height: calc(100vh - 60px);
+    }
+
+    .hero .container {
+        flex-direction: column-reverse;
+    }
+
+    .hero .container .hero-image img {
+        width: 200px;
+        padding-top: 5px;
+    }
+
+    .hero .container .hero-info .hero-title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .hero .container .hero-info h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .hero .container .hero-info p {
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .hero .container .social {
+        justify-content: center;
+    }
+
+    .hero .container .hero-info .call {
+        justify-content: center;
+    }
+}
